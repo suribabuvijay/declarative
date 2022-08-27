@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'github', url: 'https://github.com/suribabuvijay/jekins-declarative'
+                git credentialsId: 'github', url: 'https://https://github.com/suribabuvijay/declarative'
         }
       }
         stage("Maven Build"){
